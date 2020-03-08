@@ -6,6 +6,7 @@ So, let's check what is broken and share a new updated version to the community.
 
 
 Original File: **jquery.upload-1.0.2.js**
+
 Updated File: **jquery.upload-1.0.2-jquery-3-4-1.js**
 
 ### Changes:
