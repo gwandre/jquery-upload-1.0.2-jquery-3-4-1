@@ -1,5 +1,8 @@
 /*
  * jQuery.upload v1.0.2
+ * 
+ * Updated to jQuery 3.4.1 on March, 2020
+ * by Guilherme Andre (gwandre@gmail.com)
  *
  * Copyright (c) 2010 lagos
  * Dual licensed under the MIT and GPL licenses.
@@ -16,7 +19,6 @@
 			iframe = $('<iframe name="' + iframeName + '" style="position:absolute;top:-9999px" />').appendTo('body'),
 			form = '<form target="' + iframeName + '" method="post" enctype="multipart/form-data" />';
 
-		//if ($.isFunction(data)) {
 		if (typeof data ==="function") {
 			type = callback;
 			callback = data;
@@ -85,7 +87,6 @@
 						add(name, this);
 					});
 				} else {
-					//add(name, $.isFunction(this) ? this() : this);
 					add(name, (typeof this === "function") ? this() : this);
 				}
 			});
