@@ -10,8 +10,8 @@ Updated File: **jquery.upload-1.0.2-jquery-3-4-1.js**
 
 ### Changes:
 #### isFunction() was deprecated
-1. Change '$.isFunction(data)' to 'typeof data === "function"'
-2. Change '$.isFunction(this)' to 'typeof this === "function"'
+1. Change **$.isFunction(data)** to **typeof data === "function"**
+2. Change **$.isFunction(this)** to **typeof this === "function"**
 
 #### .on() function to attach a event handler is deprecated
-Change '.load(function() { ... })' to '.on("load", function (...)}'
+1. Change **.load(function() { ... })** to **.on("load", function (...)}**
