@@ -2,7 +2,7 @@
  * jQuery.upload v1.0.2
  * 
  * Updated to jQuery 3.4.1 on March, 2020
- * by Guilherme Andre (gwandre@gmail.com)
+ * by Guilherme Andre (guilhermeandre.com)
  *
  * Copyright (c) 2010 lagos
  * Dual licensed under the MIT and GPL licenses.
